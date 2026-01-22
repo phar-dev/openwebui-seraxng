@@ -84,8 +84,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./searxng:/etc/searxng:rw
-    networks:
-      - ai-openwebui-zhrgct
 
 volumes:
   open-webui: {}
